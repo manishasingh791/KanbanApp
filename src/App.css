@@ -1,0 +1,20 @@
+
+
+.body::-webkit-scrollbar{
+  display: none;
+}
+
+.App {
+  background-color: #f5f5f5;
+  min-height: 50vh;
+}
+
+  .App__main {
+  display: flex;
+  flex-wrap: flex; 
+  padding: 2rem;
+  gap: 2rem;
+  overflow: scroll;
+  scrollbar-color: #fff #fff;
+  max-height: calc(150vh - 8rem); 
+}

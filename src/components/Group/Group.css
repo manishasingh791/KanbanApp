@@ -1,0 +1,42 @@
+.Group {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.Group__header {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    margin: 4px;
+    padding: 2px;
+}
+
+.Group {
+    min-width: 290px;
+    flex-grow: 1;
+  }
+  
+  .Group__header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .Group__name {
+    font-weight: normal;
+    font-size: 15px;
+    margin-right: 6px;
+  }
+  
+  .Group__taskCount {
+    color: #666;
+    flex-grow: 1;
+  }
+  
+  .Group__icon {
+    color: #666;
+    font-size: medium;
+  }
+  

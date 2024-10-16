@@ -1,0 +1,103 @@
+.Header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 12px 32px; 
+}
+
+.Display__button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 6px 16px; 
+  font-size: 14.4px; 
+  font-weight: 200;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-items: center;
+  gap: 8px; 
+}
+
+.DropdownBox {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #808080;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 1;
+}
+
+.one {
+  top: 48px;
+  left: 32px;
+  padding-left: 8px; 
+  padding-right: 8px; 
+  padding-top: 12px; 
+  padding-bottom: 12px; 
+}
+
+.two {
+  top: 48px;
+  left: 144px; 
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.three {
+  top: 112px; 
+  left: 144px; 
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* Media Queries */
+
+
+@media (max-width: 768px) {
+  .Header {
+    padding: 12px 16px; 
+  }
+
+  .Display__button {
+    padding: 4px 10px; 
+    font-size: 12px; 
+  }
+
+  .DropdownBox {
+    width: 30vw;
+  }
+
+  .one, .two, .three {
+    left: 16px; 
+    top: 40px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .Header {
+    padding: 10px 12px; 
+    font-size: 14px;
+  }
+
+  .Display__button {
+    padding: 3px 8px; 
+    font-size: 11px; 
+  }
+
+  .one, .two, .three {
+    left: 8px; 
+    top: 32px; 
+  }
+
+  .DropdownBox {
+    width: 40vw; 
+  }
+}

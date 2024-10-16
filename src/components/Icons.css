@@ -1,0 +1,30 @@
+/* Default icon style for priority */
+.icon-default {
+    color: #666;
+    margin-right: 12px;
+  }
+  
+  /* Special style for error/exclamation icon */
+  .icon-error {
+    color: red;
+    margin-right: 12px;
+  }
+  
+  /* Progress icon muted style */
+  .icon-muted {
+    color: #ddd;
+    margin-right: 12px;
+  }
+  
+  /* Style for icons representing 'In progress' status */
+  .icon-warning {
+    color: #efef00;
+    margin-right: 12px;
+  }
+  
+  /* Style for completed/done icons */
+  .icon-complete {
+    color: blue;
+    margin-right: 12px;
+  }
+  

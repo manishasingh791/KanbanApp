@@ -1,0 +1,24 @@
+.Avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: smaller !important;
+    position: relative;
+}
+
+.Online__indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 500px;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
